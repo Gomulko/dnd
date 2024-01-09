@@ -3,7 +3,7 @@
     <form @submit.prevent="handleSubmit">
       <div class="row">
         <div class="col">
-          <label for="input1">Input 1</label>
+          <label for="input1">Imię postaci:</label>
           <input v-model="formData.input1" id="input1" type="text" class="form-control">
         </div>
         <div class="col">
@@ -26,7 +26,7 @@
 
     <div class="mt-3">
       <h3>Dane ze store:</h3>
-      <p>Input 1: {{ store.formData.input1 }}</p>
+      <p>Imię postaci: {{ store.formData.input1 }}</p>
       <p>Input 2: {{ store.formData.input2 }}</p>
       <p>Input 3: {{ store.formData.input3 }}</p>
       <p>Input 4: {{ store.formData.input4 }}</p>
