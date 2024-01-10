@@ -27,6 +27,13 @@
               <input v-model="formData.input4" id="input4" type="text" class="form-control">
             </div>
           </div>
+          <div class="row">
+            <div class="col">
+              <label for="race">Input 4</label>
+              <input v-model="formData.input4" id="input4" type="text" class="form-control">
+            </div>
+          </div>
+          <SelectInput :id=race.id :name=race.name :values=race.values></SelectInput>
         </div>
         <div class="col">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ab. Sed corporis saepe provident tenetur maxime quo esse voluptas tempora facere! Autem, rerum ipsum. Voluptates velit non voluptatibus esse maxime?
@@ -44,11 +51,12 @@
 <script>
 import { useMainStore } from '@/store';
 import PdfGenerator from '@/components/PdfGenerator.vue';
-
+import SelectInput from '@/components/inputs/SelectInput.vue'
 export default {
   name: 'FormView',
   components: {
-   PdfGenerator
+   PdfGenerator,
+   SelectInput
   },
   data() {
     return {
@@ -56,8 +64,13 @@ export default {
         input1: '',
         input2: '',
         input3: '',
-        input4: ''
+        input4: '',
       },
+      race:{
+        id: 'race',
+        name: 'race',
+        values: ['Człowiek', 'Ork', 'Elf', 'Krasnolud']
+      }
     };
   },
   computed: {
