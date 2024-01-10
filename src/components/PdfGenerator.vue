@@ -9,6 +9,7 @@
   import existingPdf from "@/assets/karta-postaci-interaktywna.pdf";
   import { useMainStore } from "@/store";
   import fontkit from "@pdf-lib/fontkit";
+  import font from "@/assets/font/Ubuntu-R.ttf"
 
   export default {
     name: "PdfGenerator",
@@ -22,14 +23,14 @@
         );
         const pdfDoc = await PDFDocument.load(existingPdfBytes);
         pdfDoc.registerFontkit(fontkit);
-        const url = "https://pdf-lib.js.org/assets/ubuntu/Ubuntu-R.ttf";
-        const ubuntuBytes = await fetch(url).then((res) => res.arrayBuffer());
-        const font = await pdfDoc.embedFont(ubuntuBytes);
+        // const url = "https://pdf-lib.js.org/assets/ubuntu/Ubuntu-R.ttf";
+        const ubuntuBytes = await fetch(font).then((res) => res.arrayBuffer());
+        const ubuntuFont = await pdfDoc.embedFont(ubuntuBytes);
         const form = pdfDoc.getForm();
         const rawUpdateFieldAppearances =
           form.updateFieldAppearances.bind(form);
         form.updateFieldAppearances = function () {
-          return rawUpdateFieldAppearances(font);
+          return rawUpdateFieldAppearances(ubuntuFont);
         };
         const fields = form.getFields();
         fields.forEach((field) => {
