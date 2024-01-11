@@ -24,21 +24,21 @@
         const pdfDoc = await PDFDocument.load(existingPdfBytes);
         pdfDoc.registerFontkit(fontkit);
         const ubuntuBytes = await fetch(font).then((res) => res.arrayBuffer());
-        const ubuntuFont = await pdfDoc.embedFont(ubuntuBytes);
+        const font = await pdfDoc.embedFont(ubuntuBytes);
         const form = pdfDoc.getForm();
         const rawUpdateFieldAppearances =
           form.updateFieldAppearances.bind(form);
         form.updateFieldAppearances = function () {
-          return rawUpdateFieldAppearances(ubuntuFont);
+          return rawUpdateFieldAppearances(font);
         };
         const fields = form.getFields();
         fields.forEach((field) => {
           const type = field.constructor.name;
           const name = field.getName();
-          // if (type === "PDFTextField") {
-          //   field.setMaxLength(undefined);
-          //   field.setText(name);
-          // }
+          if (type === "PDFTextField") {
+            field.setMaxLength(undefined);
+            field.setText(name);
+          }
           console.log(`${type}: ${name}`);
         });
         const nameField = form.getTextField("Imię postaci");
