@@ -24,7 +24,9 @@ export default {
       console.log(`${type}: ${name}`);
       });
       const nameField = form.getTextField("Imię postaci");
+      const name2Field = form.getTextField("im gr");
       nameField.setText(formData.input1);
+      name2Field.setText(formData.playerName);
       const pdfBytes = await pdfDoc.save();
       const blob = new Blob([pdfBytes], { type: 'application/pdf' });
       const pdfUrl = URL.createObjectURL(blob);

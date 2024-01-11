@@ -5,6 +5,7 @@ interface FormData {
   input2: string;
   input3: string;
   input4: string;
+  playerName: string;
 }
 
 export const useMainStore = defineStore('main', {
@@ -13,12 +14,13 @@ export const useMainStore = defineStore('main', {
       input1: '',
       input2: '',
       input3: '',
-      input4: ''
+      input4: '',
+      playerName: ''
     }
   }),
   actions: {
-    updateFormData(data: FormData) {
-      this.formData = { ...data };
+    updateFormData(key: keyof FormData, value: string) {
+      this.formData[key] = value;
     }
   }
 });

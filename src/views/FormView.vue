@@ -5,26 +5,22 @@
         <div class="col">
           <div class="row">
             <div class="col">
-              <label for="input1">Imię postaci:</label>
-              <input v-model="formData.input1" id="input1" type="text" class="form-control">
+              <form-input label="Imię postaci:" dataText="input1" />
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <label for="input2">Input 2</label>
-              <input v-model="formData.input2" id="input2" type="text" class="form-control">
+              <form-input label="Imię Gracza:" dataText="playerName" />
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <label for="input3">Input 3</label>
-              <input v-model="formData.input3" id="input3" type="text" class="form-control">
+              <form-input label="input3" dataText="input3" />
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <label for="input4">Input 4</label>
-              <input v-model="formData.input4" id="input4" type="text" class="form-control">
+              <form-input label="input4:" dataText="input4" />
             </div>
           </div>
         </div>
@@ -44,21 +40,12 @@
 <script>
 import { useMainStore } from '@/store';
 import PdfGenerator from '@/components/PdfGenerator.vue';
+import FormInputText from '@/components/FormInputText.vue';
 
 export default {
   name: 'FormView',
   components: {
-   PdfGenerator
-  },
-  data() {
-    return {
-      formData: {
-        input1: '',
-        input2: '',
-        input3: '',
-        input4: ''
-      },
-    };
+    FormInputText,PdfGenerator
   },
   computed: {
     store() {
