@@ -5,22 +5,22 @@
         <div class="col">
           <div class="row">
             <div class="col">
-              <form-input label="Imię postaci:" dataText="input1" />
+              <form-input-text label="Imię postaci:" dataText="input1" />
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <form-input label="Imię Gracza:" dataText="playerName" />
+              <form-input-text label="Imię Gracza:" dataText="playerName" />
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <form-input label="input3" dataText="input3" />
+              <form-input-text label="input3" dataText="input3" />
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <form-input label="input4:" dataText="input4" />
+              <form-input-text label="input4:" dataText="input4" />
             </div>
           </div>
         </div>
