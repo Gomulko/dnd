@@ -65,6 +65,15 @@
       FormInputText,
       PdfGenerator,
     },
+    data() {
+      return {
+        race: {
+          id: "race",
+          name: "race",
+          values: ["Człowiek", "Elf", "Ork"],
+        },
+      };
+    },
     computed: {
       store() {
         return useMainStore();
