@@ -25,7 +25,6 @@
           </div>
           <FormInputSelect
             :id="race.id"
-            :name="race.name"
             :values="race.values"
           ></FormInputSelect>
         </div>
@@ -69,7 +68,6 @@
       return {
         race: {
           id: "race",
-          name: "race",
           values: ["Człowiek", "Elf", "Ork"],
         },
       };
