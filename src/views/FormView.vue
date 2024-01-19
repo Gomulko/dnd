@@ -30,12 +30,19 @@
           </p>
         </div>
       </div>
+      <FormInputSelect
+        :id="dndConfig.race"
+        :values="dndConfig.race">
+      </FormInputSelect>
       <pdf-generator ref="pdfGenerator"></pdf-generator>
     </form>
   </div>
 </template>
 
 <script lang="ts" setup>
-  import PdfGenerator from "@/components/PdfGenerator.vue";
-  import FormInputText from "@/components/inputs/FormInputText.vue";
+import PdfGenerator from "@/components/PdfGenerator.vue";
+import FormInputText from "@/components/inputs/FormInputText.vue";
+import FormInputSelect from "@/components/inputs/FormInputSelect.vue";
+import dndConfig from "@/assets/dnd.json"; 
+
 </script>
