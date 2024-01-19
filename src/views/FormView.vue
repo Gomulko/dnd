@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <form @submit.prevent="handleSubmit">
+    <form >
       <div class="row">
         <div class="col">
           <div class="row">
@@ -25,11 +25,7 @@
           </div>
         </div>
         <div class="col">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ab. Sed corporis saepe provident tenetur maxime quo esse voluptas tempora facere! Autem, rerum ipsum. Voluptates velit non voluptatibus esse maxime?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ab. Sed corporis saepe provident tenetur maxime quo esse voluptas tempora facere! Autem, rerum ipsum. Voluptates velit non voluptatibus esse maxime?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ab. Sed corporis saepe provident tenetur maxime quo esse voluptas tempora facere! Autem, rerum ipsum. Voluptates velit non voluptatibus esse maxime?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ab. Sed corporis saepe provident tenetur maxime quo esse voluptas tempora facere! Autem, rerum ipsum. Voluptates velit non voluptatibus esse maxime?
-          </p>
+          <p>Lorem ipsum...</p>
         </div>
       </div>
       <pdf-generator ref="pdfGenerator"></pdf-generator>
@@ -37,26 +33,7 @@
   </div>
 </template>
 
-<script>
-import { useMainStore } from '@/store';
+<script lang="ts" setup>
 import PdfGenerator from '@/components/PdfGenerator.vue';
 import FormInputText from '@/components/FormInputText.vue';
-
-export default {
-  name: 'FormView',
-  components: {
-    FormInputText,PdfGenerator
-  },
-  computed: {
-    store() {
-      return useMainStore();
-    }
-  },
-  methods: {
-   async handleSubmit() {
-      this.store.updateFormData(this.formData);
-      await this.$refs.pdfGenerator.createPdf();
-    }
-  }
-};
 </script>
