@@ -25,23 +25,18 @@
           </div>
         </div>
         <div class="col">
-          <p>
-            opis
-          </p>
+          <p>opis</p>
         </div>
       </div>
-      <FormInputSelect
-        :id="dndConfig.race"
-        :values="dndConfig.race">
-      </FormInputSelect>
+      <FormInputSelect id="race" :values="dndConfig.race"> </FormInputSelect>
       <pdf-generator ref="pdfGenerator"></pdf-generator>
     </form>
   </div>
 </template>
 
 <script setup lang="ts">
-import PdfGenerator from "@/components/PdfGenerator.vue";
-import FormInputText from "@/components/inputs/FormInputText.vue";
-import FormInputSelect from "@/components/inputs/FormInputSelect.vue";
-import dndConfig from "@/assets/dnd.json";
+  import PdfGenerator from "@/components/PdfGenerator.vue";
+  import FormInputText from "@/components/inputs/FormInputText.vue";
+  import FormInputSelect from "@/components/inputs/FormInputSelect.vue";
+  import dndConfig from "@/assets/dnd.json";
 </script>
