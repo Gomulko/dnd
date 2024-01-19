@@ -23,12 +23,27 @@
               <form-input-text label="input4:" dataText="input4" />
             </div>
           </div>
+          <FormInputSelect
+            :id="race.id"
+            :values="race.values"
+          ></FormInputSelect>
         </div>
         <div class="col">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ab. Sed corporis saepe provident tenetur maxime quo esse voluptas tempora facere! Autem, rerum ipsum. Voluptates velit non voluptatibus esse maxime?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ab. Sed corporis saepe provident tenetur maxime quo esse voluptas tempora facere! Autem, rerum ipsum. Voluptates velit non voluptatibus esse maxime?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ab. Sed corporis saepe provident tenetur maxime quo esse voluptas tempora facere! Autem, rerum ipsum. Voluptates velit non voluptatibus esse maxime?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ab. Sed corporis saepe provident tenetur maxime quo esse voluptas tempora facere! Autem, rerum ipsum. Voluptates velit non voluptatibus esse maxime?
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+            ab. Sed corporis saepe provident tenetur maxime quo esse voluptas
+            tempora facere! Autem, rerum ipsum. Voluptates velit non
+            voluptatibus esse maxime? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Expedita, ab. Sed corporis saepe provident tenetur
+            maxime quo esse voluptas tempora facere! Autem, rerum ipsum.
+            Voluptates velit non voluptatibus esse maxime? Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Expedita, ab. Sed corporis saepe
+            provident tenetur maxime quo esse voluptas tempora facere! Autem,
+            rerum ipsum. Voluptates velit non voluptatibus esse maxime? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Expedita, ab. Sed
+            corporis saepe provident tenetur maxime quo esse voluptas tempora
+            facere! Autem, rerum ipsum. Voluptates velit non voluptatibus esse
+            maxime?
           </p>
         </div>
       </div>
@@ -38,25 +53,35 @@
 </template>
 
 <script>
-import { useMainStore } from '@/store';
-import PdfGenerator from '@/components/PdfGenerator.vue';
-import FormInputText from '@/components/FormInputText.vue';
-
-export default {
-  name: 'FormView',
-  components: {
-    FormInputText,PdfGenerator
-  },
-  computed: {
-    store() {
-      return useMainStore();
-    }
-  },
-  methods: {
-   async handleSubmit() {
-      this.store.updateFormData(this.formData);
-      await this.$refs.pdfGenerator.createPdf();
-    }
-  }
-};
+  import { useMainStore } from "@/store";
+  import PdfGenerator from "@/components/PdfGenerator.vue";
+  import FormInputText from "@/components/inputs/FormInputText.vue";
+  import FormInputSelect from "@/components/inputs/FormInputSelect.vue";
+  export default {
+    name: "FormView",
+    components: {
+      FormInputSelect,
+      FormInputText,
+      PdfGenerator,
+    },
+    data() {
+      return {
+        race: {
+          id: "race",
+          values: ["Człowiek", "Elf", "Ork"],
+        },
+      };
+    },
+    computed: {
+      store() {
+        return useMainStore();
+      },
+    },
+    methods: {
+      async handleSubmit() {
+        this.store.updateFormData(this.formData);
+        await this.$refs.pdfGenerator.createPdf();
+      },
+    },
+  };
 </script>

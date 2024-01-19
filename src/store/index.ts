@@ -1,4 +1,4 @@
-import { defineStore } from 'pinia';
+import { defineStore } from "pinia";
 
 interface FormData {
   input1: string;
@@ -6,21 +6,23 @@ interface FormData {
   input3: string;
   input4: string;
   playerName: string;
+  race: string;
 }
 
-export const useMainStore = defineStore('main', {
+export const useMainStore = defineStore("main", {
   state: () => ({
     formData: {
-      input1: '',
-      input2: '',
-      input3: '',
-      input4: '',
-      playerName: ''
-    }
+      input1: "",
+      input2: "",
+      input3: "",
+      input4: "",
+      playerName: "",
+      race: "",
+    },
   }),
   actions: {
     updateFormData(key: keyof FormData, value: string) {
       this.formData[key] = value;
-    }
-  }
+    },
+  },
 });
