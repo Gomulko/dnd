@@ -36,6 +36,12 @@ const updatePdfForm = (pdfDoc: PDFDocument, formData: FormData, font: PDFFont) =
   form.getTextField("im gr").setText(formData['im gr']);
   form.getTextField("rasa").setText(formData.race);
   form.getTextField("pd").setText(formData.pd.toString());
+  form.getTextField("Pole tekstowe 29").setText(formData['Pole tekstowe 29'].toString());
+  form.getTextField("Pole tekstowe 31").setText(formData['Pole tekstowe 31'].toString());
+  form.getTextField("Pole tekstowe 33").setText(formData['Pole tekstowe 33'].toString());
+  form.getTextField("Pole tekstowe 35").setText(formData['Pole tekstowe 35'].toString());
+  form.getTextField("Pole tekstowe 37").setText(formData['Pole tekstowe 37'].toString());
+  form.getTextField("Pole tekstowe 39").setText(formData['Pole tekstowe 39'].toString());
   form.getTextField("ins").setText(formData.ins.toString());
 };
 </script>

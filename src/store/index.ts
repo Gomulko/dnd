@@ -8,6 +8,12 @@ export interface FormData {
   'im gr': string;
   race: string;
   ins: number;
+  'Pole tekstowe 29': number;
+  'Pole tekstowe 31': number;
+  'Pole tekstowe 33': number;
+  'Pole tekstowe 35': number;
+  'Pole tekstowe 37': number;
+  'Pole tekstowe 39': number;
 }
 
 export const useMainStore = defineStore("main", {
@@ -20,6 +26,12 @@ export const useMainStore = defineStore("main", {
       'im gr': "Tomek",
       race: "",
       ins: 1,
+      'Pole tekstowe 29': 0,
+      'Pole tekstowe 31': 0,
+      'Pole tekstowe 33': 0,
+      'Pole tekstowe 35': 0,
+      'Pole tekstowe 37': 0,
+      'Pole tekstowe 39': 0,
     },
   }),
   actions: {
