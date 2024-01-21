@@ -35,6 +35,7 @@ const updatePdfForm = (pdfDoc: PDFDocument, formData: FormData, font: PDFFont) =
   form.getTextField("Imię postaci").setText(formData['Imię postaci']);
   form.getTextField("im gr").setText(formData['im gr']);
   form.getTextField("rasa").setText(formData.race);
+  form.getTextField("pd").setText(formData.pd.toString());
   form.getTextField("ins").setText(formData.ins.toString());
 };
 </script>

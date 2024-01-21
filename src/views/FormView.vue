@@ -20,7 +20,7 @@
           </div>
           <div class="row">
             <div class="col">
-              <form-input-simple label="input4:" dataText="input4" />
+              <form-input-simple label="Punkty doświadczenia" dataText="pd" inputType="number"/>
             </div>
           </div>
         </div>
