@@ -5,7 +5,10 @@
         <div class="col">
           <div class="row">
             <div class="col">
-              <form-input-simple label="Imię postaci:" dataText="Imię postaci" />
+              <form-input-simple
+                label="Imię postaci:"
+                dataText="Imię postaci"
+              />
             </div>
           </div>
           <div class="row">
@@ -15,12 +18,39 @@
           </div>
           <div class="row">
             <div class="col">
-              <form-input-simple label="Inspiracja" dataText="ins" inputType="number"/>
+              <form-input-simple
+                label="Inspiracja"
+                dataText="ins"
+                inputType="number"
+              />
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <form-input-simple label="Punkty doświadczenia" dataText="pd" inputType="number"/>
+              <form-input-simple
+                label="Punkty doświadczenia"
+                dataText="pd"
+                inputType="number"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <form-input-simple
+                label="Poziom"
+                dataText="poziom"
+                inputType="number"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <FormInputSelect
+                id="klasa"
+                :values="
+                  Object.values(dndConfig.classes).map((klasa) => klasa.name)
+                "
+              ></FormInputSelect>
             </div>
           </div>
         </div>
@@ -29,6 +59,7 @@
         </div>
       </div>
       <FormInputSelect id="race" :values="dndConfig.race"> </FormInputSelect>
+
       <pdf-generator ref="pdfGenerator"></pdf-generator>
     </form>
   </div>
