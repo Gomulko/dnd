@@ -1,7 +1,13 @@
 <template>
   <div>
     <label :for="inputId">{{ label }}</label>
-    <input v-model="value" :id="inputId" :type="inputType" class="form-control">
+    <input 
+      v-model="value" 
+      :id="inputId" 
+      :data-description="label"
+      :type="inputType" 
+      class="form-control"
+    >
   </div>
 </template>
 
@@ -21,11 +27,8 @@ const props = defineProps({
     validator: (value: string) => ['text', 'number'].includes(value),
   },
 });
-
 const store = useMainStore();
-
 const inputId = ref(`input-${Math.random().toString(36).substring(2)}`);
-
 const value = computed({
   get: () => store.formData[props.dataText as keyof typeof store.formData],
   set: (newValue) => {

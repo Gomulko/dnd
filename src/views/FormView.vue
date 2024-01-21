@@ -15,17 +15,17 @@
           </div>
           <div class="row">
             <div class="col">
-              <form-input-simple label="Inspiracja" dataText="ins" inputType="number"/>
+              <form-input-simple label="Inspiracja" dataText="ins" inputType="number" />
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <form-input-simple label="Punkty doświadczenia" dataText="pd" inputType="number"/>
+              <form-input-simple label="Punkty doświadczenia" dataText="pd" inputType="number" />
             </div>
           </div>
         </div>
         <div class="col">
-          <p>opis</p>
+          <DynamicDescriptionDisplay />
         </div>
       </div>
       <FormInputSelect id="race" :values="dndConfig.race"> </FormInputSelect>
@@ -36,6 +36,7 @@
 
 <script setup lang="ts">
   import PdfGenerator from "@/components/PdfGenerator.vue";
+  import DynamicDescriptionDisplay from "@/components/DynamicDescriptionDisplay.vue";
   import FormInputSimple from "@/components/inputs/FormInputSimple.vue";
   import FormInputSelect from "@/components/inputs/FormInputSelect.vue";
   import dndConfig from "@/assets/dnd.json";
