@@ -1,27 +1,29 @@
 import { defineStore } from "pinia";
 
-interface FormData {
-  input1: string;
+export interface FormData {
+  'Imię postaci': string;
   input2: string;
   input3: string;
   input4: string;
-  playerName: string;
+  'im gr': string;
   race: string;
+  ins: number;
 }
 
 export const useMainStore = defineStore("main", {
   state: () => ({
     formData: {
-      input1: "",
+      'Imię postaci': "Goratrex",
       input2: "",
       input3: "",
       input4: "",
-      playerName: "",
+      'im gr': "Tomek",
       race: "",
+      ins: 1,
     },
   }),
   actions: {
-    updateFormData(key: keyof FormData, value: string) {
+    updateFormData<K extends keyof FormData>(key: K, value: FormData[K]) {
       this.formData[key] = value;
     },
   },

@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { PDFDocument, PDFFont } from "pdf-lib";
 import existingPdf from "@/assets/karta-postaci-interaktywna.pdf";
-import { useMainStore } from "@/store";
+import { useMainStore, FormData } from "@/store";
 import fontkit from "@pdf-lib/fontkit";
 
 const store = useMainStore();
@@ -26,14 +26,15 @@ const createPdf = async () => {
   window.open(pdfUrl);
 };
 
-const updatePdfForm = (pdfDoc: PDFDocument, formData: { input1: string; input2: string; input3: string; input4: string; playerName: string; race: string; }, font: PDFFont) => {
+const updatePdfForm = (pdfDoc: PDFDocument, formData: FormData, font: PDFFont) => {
   const form = pdfDoc.getForm();
   const originalUpdateFieldAppearances = form.updateFieldAppearances;
   form.updateFieldAppearances = function() {
     originalUpdateFieldAppearances.call(this, font);
   };
-  form.getTextField("Imię postaci").setText(formData.input1);
-  form.getTextField("im gr").setText(formData.playerName);
+  form.getTextField("Imię postaci").setText(formData['Imię postaci']);
+  form.getTextField("im gr").setText(formData['im gr']);
   form.getTextField("rasa").setText(formData.race);
+  form.getTextField("ins").setText(formData.ins.toString());
 };
 </script>
