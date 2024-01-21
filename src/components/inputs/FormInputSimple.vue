@@ -1,7 +1,7 @@
 <template>
   <div>
     <label :for="inputId">{{ label }}</label>
-    <input v-model="value" :id="inputId" type="text" class="form-control">
+    <input v-model="value" :id="inputId" :type="inputType" class="form-control">
   </div>
 </template>
 
@@ -14,6 +14,11 @@ const props = defineProps({
   dataText: {
     type: String,
     required: true
+  },
+  inputType: {
+    type: String,
+    default: 'text',
+    validator: (value: string) => ['text', 'number'].includes(value),
   },
 });
 

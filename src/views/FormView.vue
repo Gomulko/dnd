@@ -5,22 +5,22 @@
         <div class="col">
           <div class="row">
             <div class="col">
-              <form-input-text label="Imię postaci:" dataText="input1" />
+              <form-input-simple label="Imię postaci:" dataText="characterName" />
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <form-input-text label="Imię Gracza:" dataText="playerName" />
+              <form-input-simple label="Imię Gracza:" dataText="playerName" />
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <form-input-text label="input3" dataText="input3" />
+              <form-input-simple label="Inspiracja" dataText="ins" inputType="number"/>
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <form-input-text label="input4:" dataText="input4" />
+              <form-input-simple label="input4:" dataText="input4" />
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@
 
 <script setup lang="ts">
   import PdfGenerator from "@/components/PdfGenerator.vue";
-  import FormInputText from "@/components/inputs/FormInputText.vue";
+  import FormInputSimple from "@/components/inputs/FormInputSimple.vue";
   import FormInputSelect from "@/components/inputs/FormInputSelect.vue";
   import dndConfig from "@/assets/dnd.json";
 </script>
