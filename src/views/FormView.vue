@@ -5,12 +5,12 @@
         <div class="col">
           <div class="row">
             <div class="col">
-              <form-input-simple label="Imię postaci:" dataText="characterName" />
+              <form-input-simple label="Imię postaci:" dataText="Imię postaci" />
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <form-input-simple label="Imię Gracza:" dataText="playerName" />
+              <form-input-simple label="Imię Gracza:" dataText="im gr" />
             </div>
           </div>
           <div class="row">

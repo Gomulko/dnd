@@ -32,8 +32,8 @@ const updatePdfForm = (pdfDoc: PDFDocument, formData: FormData, font: PDFFont) =
   form.updateFieldAppearances = function() {
     originalUpdateFieldAppearances.call(this, font);
   };
-  form.getTextField("Imię postaci").setText(formData.characterName);
-  form.getTextField("im gr").setText(formData.playerName);
+  form.getTextField("Imię postaci").setText(formData['Imię postaci']);
+  form.getTextField("im gr").setText(formData['im gr']);
   form.getTextField("rasa").setText(formData.race);
   form.getTextField("ins").setText(formData.ins.toString());
 };

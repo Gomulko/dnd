@@ -1,11 +1,11 @@
 import { defineStore } from "pinia";
 
 export interface FormData {
-  characterName: string;
+  'Imię postaci': string;
   input2: string;
   input3: string;
   input4: string;
-  playerName: string;
+  'im gr': string;
   race: string;
   ins: number;
 }
@@ -13,11 +13,11 @@ export interface FormData {
 export const useMainStore = defineStore("main", {
   state: () => ({
     formData: {
-      characterName: "Goratrex",
+      'Imię postaci': "Goratrex",
       input2: "",
       input3: "",
       input4: "",
-      playerName: "Tomek",
+      'im gr': "Tomek",
       race: "",
       ins: 1,
     },
