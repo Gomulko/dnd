@@ -1,0 +1,1146 @@
+{
+    "Imię postaci": {
+        "Type": "PDFTextField",
+        "Value": "asdasdasd1"
+    },
+    "kip": {
+        "Type": "PDFTextField"
+    },
+    "ins": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 29": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 31": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 33": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 35": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 37": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 39": {
+        "Type": "PDFTextField"
+    },
+    "pr z b": {
+        "Type": "PDFTextField"
+    },
+    "kp": {
+        "Type": "PDFTextField"
+    },
+    "ini": {
+        "Type": "PDFTextField"
+    },
+    "szyb": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 30": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 32": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 34": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 36": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 38": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 40": {
+        "Type": "PDFTextField"
+    },
+    "Pasywna Madrosc": {
+        "Type": "PDFTextField"
+    },
+    "pozost biegl": {
+        "Type": "PDFTextField"
+    },
+    "ataki i magia": {
+        "Type": "PDFTextField"
+    },
+    "wyposazenie": {
+        "Type": "PDFTextField"
+    },
+    "korzysci i zdolnosci": {
+        "Type": "PDFTextField"
+    },
+    "c os": {
+        "Type": "PDFTextField"
+    },
+    "idealy": {
+        "Type": "PDFTextField"
+    },
+    "wiezi": {
+        "Type": "PDFTextField"
+    },
+    "slabo": {
+        "Type": "PDFTextField"
+    },
+    "Zr": {
+        "Type": "PDFTextField"
+    },
+    "int": {
+        "Type": "PDFTextField"
+    },
+    "Ch": {
+        "Type": "PDFTextField"
+    },
+    "S": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 133": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 134": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 135": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 136": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 137": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 138": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 139": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 140": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 141": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 142": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 143": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 144": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 145": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 146": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 147": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 148": {
+        "Type": "PDFTextField"
+    },
+    "Pole tekstowe 149": {
+        "Type": "PDFTextField"
+    },
+    "zwinne dlonie 150": {
+        "Type": "PDFTextField"
+    },
+    "M": {
+        "Type": "PDFTextField"
+    },
+    "SM": {
+        "Type": "PDFTextField"
+    },
+    "SS": {
+        "Type": "PDFTextField"
+    },
+    "SE": {
+        "Type": "PDFTextField"
+    },
+    "SZ": {
+        "Type": "PDFTextField"
+    },
+    "SP": {
+        "Type": "PDFTextField"
+    },
+    "rasa": {
+        "Type": "PDFTextField",
+        "Value": "Człowiek"
+    },
+    "max PW": {
+        "Type": "PDFTextField"
+    },
+    "nazwa 1": {
+        "Type": "PDFTextField"
+    },
+    "pda1": {
+        "Type": "PDFTextField"
+    },
+    "obr1": {
+        "Type": "PDFTextField"
+    },
+    "nazwa 2": {
+        "Type": "PDFTextField"
+    },
+    "pda2": {
+        "Type": "PDFTextField"
+    },
+    "obr2": {
+        "Type": "PDFTextField"
+    },
+    "nazwa 3": {
+        "Type": "PDFTextField"
+    },
+    "pda3": {
+        "Type": "PDFTextField"
+    },
+    "obr3": {
+        "Type": "PDFTextField"
+    },
+    "Łącznie": {
+        "Type": "PDFTextField"
+    },
+    "Kosc W": {
+        "Type": "PDFTextField"
+    },
+    "akt PW": {
+        "Type": "PDFTextField"
+    },
+    "Tymcz PW": {
+        "Type": "PDFTextField"
+    },
+    "poch": {
+        "Type": "PDFTextField"
+    },
+    "char": {
+        "Type": "PDFTextField"
+    },
+    "pd": {
+        "Type": "PDFTextField"
+    },
+    "im gr": {
+        "Type": "PDFTextField",
+        "Value": "asdasdasd2"
+    },
+    "Pole wyboru 31": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 41": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 59": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 62": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 60": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 63": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 61": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 64": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 47": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 53": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 36": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 42": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 48": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 54": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 37": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 43": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 49": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 55": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 38": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 44": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 50": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 56": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 39": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 45": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 51": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 57": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 40": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 46": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 52": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Pole wyboru 58": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "Imię postaci 2": {
+        "Type": "PDFTextField"
+    },
+    "wiek": {
+        "Type": "PDFTextField"
+    },
+    "oczy": {
+        "Type": "PDFTextField"
+    },
+    "wzrost": {
+        "Type": "PDFTextField"
+    },
+    "skora": {
+        "Type": "PDFTextField"
+    },
+    "waga": {
+        "Type": "PDFTextField"
+    },
+    "nazwa": {
+        "Type": "PDFTextField"
+    },
+    "wkosy": {
+        "Type": "PDFTextField"
+    },
+    "soj": {
+        "Type": "PDFTextField"
+    },
+    "pozost korz": {
+        "Type": "PDFTextField"
+    },
+    "hiat": {
+        "Type": "PDFTextField"
+    },
+    "majatek": {
+        "Type": "PDFTextField"
+    },
+    "pozost korz2": {
+        "Type": "PDFTextField"
+    },
+    "obrazek": {
+        "Type": "PDFTextField"
+    },
+    "wygl": {
+        "Type": "PDFTextField"
+    },
+    "majatek2": {
+        "Type": "PDFTextField"
+    },
+    "soj 2": {
+        "Type": "PDFTextField"
+    },
+    "Imię postaci 3": {
+        "Type": "PDFTextField"
+    },
+    "CB": {
+        "Type": "PDFTextField"
+    },
+    "ST": {
+        "Type": "PDFTextField"
+    },
+    "PR": {
+        "Type": "PDFTextField"
+    },
+    "kropka": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 13": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 26": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 39": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 52": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 61": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 70": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 79": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 86": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 1": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 14": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 27": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 40": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 53": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 62": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 71": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 80": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 87": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 2": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 15": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 28": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 41": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 54": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 63": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 72": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 81": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 88": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 3": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 16": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 29": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 42": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 55": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 64": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 73": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 82": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 89": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 4": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 17": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 30": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 43": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 56": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 65": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 74": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 83": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 90": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 5": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 18": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 31": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 44": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 57": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 66": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 75": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 84": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 91": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 6": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 19": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 32": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 45": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 58": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 67": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 76": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 85": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 92": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 7": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 20": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 33": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 46": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 59": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 68": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 77": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 8": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 21": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 34": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 47": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 60": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 69": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 78": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 9": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 22": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 35": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 48": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 10": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 23": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 36": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 49": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 11": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 24": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 37": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 50": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 12": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 25": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 38": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "kropka 51": {
+        "Type": "PDFCheckBox",
+        "Value": "N/A"
+    },
+    "K": {
+        "Type": "PDFTextField"
+    },
+    "K 1": {
+        "Type": "PDFTextField"
+    },
+    "K 2": {
+        "Type": "PDFTextField"
+    },
+    "K 4": {
+        "Type": "PDFTextField"
+    },
+    "K 5": {
+        "Type": "PDFTextField"
+    },
+    "K 7": {
+        "Type": "PDFTextField"
+    },
+    "K 8": {
+        "Type": "PDFTextField"
+    },
+    "W": {
+        "Type": "PDFTextField"
+    },
+    "W 1": {
+        "Type": "PDFTextField"
+    },
+    "W 2": {
+        "Type": "PDFTextField"
+    },
+    "W 3": {
+        "Type": "PDFTextField"
+    },
+    "W 4": {
+        "Type": "PDFTextField"
+    },
+    "W 5": {
+        "Type": "PDFTextField"
+    },
+    "W 6": {
+        "Type": "PDFTextField"
+    },
+    "W 7": {
+        "Type": "PDFTextField"
+    },
+    "W 8": {
+        "Type": "PDFTextField"
+    },
+    "czar": {
+        "Type": "PDFTextField"
+    },
+    "czar 8": {
+        "Type": "PDFTextField"
+    },
+    "czar 21": {
+        "Type": "PDFTextField"
+    },
+    "czar 34": {
+        "Type": "PDFTextField"
+    },
+    "czar 47": {
+        "Type": "PDFTextField"
+    },
+    "czar 60": {
+        "Type": "PDFTextField"
+    },
+    "czar 69": {
+        "Type": "PDFTextField"
+    },
+    "czar 78": {
+        "Type": "PDFTextField"
+    },
+    "czar 87": {
+        "Type": "PDFTextField"
+    },
+    "czar 94": {
+        "Type": "PDFTextField"
+    },
+    "czar 1": {
+        "Type": "PDFTextField"
+    },
+    "czar 9": {
+        "Type": "PDFTextField"
+    },
+    "czar 22": {
+        "Type": "PDFTextField"
+    },
+    "czar 35": {
+        "Type": "PDFTextField"
+    },
+    "czar 48": {
+        "Type": "PDFTextField"
+    },
+    "czar 61": {
+        "Type": "PDFTextField"
+    },
+    "czar 70": {
+        "Type": "PDFTextField"
+    },
+    "czar 79": {
+        "Type": "PDFTextField"
+    },
+    "czar 88": {
+        "Type": "PDFTextField"
+    },
+    "czar 95": {
+        "Type": "PDFTextField"
+    },
+    "czar 2": {
+        "Type": "PDFTextField"
+    },
+    "czar 10": {
+        "Type": "PDFTextField"
+    },
+    "czar 23": {
+        "Type": "PDFTextField"
+    },
+    "czar 36": {
+        "Type": "PDFTextField"
+    },
+    "czar 49": {
+        "Type": "PDFTextField"
+    },
+    "czar 62": {
+        "Type": "PDFTextField"
+    },
+    "czar 71": {
+        "Type": "PDFTextField"
+    },
+    "czar 80": {
+        "Type": "PDFTextField"
+    },
+    "czar 89": {
+        "Type": "PDFTextField"
+    },
+    "czar 96": {
+        "Type": "PDFTextField"
+    },
+    "czar 3": {
+        "Type": "PDFTextField"
+    },
+    "czar 11": {
+        "Type": "PDFTextField"
+    },
+    "czar 24": {
+        "Type": "PDFTextField"
+    },
+    "czar 37": {
+        "Type": "PDFTextField"
+    },
+    "czar 50": {
+        "Type": "PDFTextField"
+    },
+    "czar 63": {
+        "Type": "PDFTextField"
+    },
+    "czar 72": {
+        "Type": "PDFTextField"
+    },
+    "czar 81": {
+        "Type": "PDFTextField"
+    },
+    "czar 90": {
+        "Type": "PDFTextField"
+    },
+    "czar 97": {
+        "Type": "PDFTextField"
+    },
+    "czar 4": {
+        "Type": "PDFTextField"
+    },
+    "czar 12": {
+        "Type": "PDFTextField"
+    },
+    "czar 25": {
+        "Type": "PDFTextField"
+    },
+    "czar 38": {
+        "Type": "PDFTextField"
+    },
+    "czar 51": {
+        "Type": "PDFTextField"
+    },
+    "czar 64": {
+        "Type": "PDFTextField"
+    },
+    "czar 73": {
+        "Type": "PDFTextField"
+    },
+    "czar 82": {
+        "Type": "PDFTextField"
+    },
+    "czar 91": {
+        "Type": "PDFTextField"
+    },
+    "czar 98": {
+        "Type": "PDFTextField"
+    },
+    "czar 5": {
+        "Type": "PDFTextField"
+    },
+    "czar 13": {
+        "Type": "PDFTextField"
+    },
+    "czar 26": {
+        "Type": "PDFTextField"
+    },
+    "czar 39": {
+        "Type": "PDFTextField"
+    },
+    "czar 52": {
+        "Type": "PDFTextField"
+    },
+    "czar 65": {
+        "Type": "PDFTextField"
+    },
+    "czar 74": {
+        "Type": "PDFTextField"
+    },
+    "czar 83": {
+        "Type": "PDFTextField"
+    },
+    "czar 92": {
+        "Type": "PDFTextField"
+    },
+    "czar 99": {
+        "Type": "PDFTextField"
+    },
+    "czar 6": {
+        "Type": "PDFTextField"
+    },
+    "czar 14": {
+        "Type": "PDFTextField"
+    },
+    "czar 27": {
+        "Type": "PDFTextField"
+    },
+    "czar 40": {
+        "Type": "PDFTextField"
+    },
+    "czar 53": {
+        "Type": "PDFTextField"
+    },
+    "czar 66": {
+        "Type": "PDFTextField"
+    },
+    "czar 75": {
+        "Type": "PDFTextField"
+    },
+    "czar 84": {
+        "Type": "PDFTextField"
+    },
+    "czar 93": {
+        "Type": "PDFTextField"
+    },
+    "czar 100": {
+        "Type": "PDFTextField"
+    },
+    "czar 7": {
+        "Type": "PDFTextField"
+    },
+    "czar 15": {
+        "Type": "PDFTextField"
+    },
+    "czar 28": {
+        "Type": "PDFTextField"
+    },
+    "czar 41": {
+        "Type": "PDFTextField"
+    },
+    "czar 54": {
+        "Type": "PDFTextField"
+    },
+    "czar 67": {
+        "Type": "PDFTextField"
+    },
+    "czar 76": {
+        "Type": "PDFTextField"
+    },
+    "czar 85": {
+        "Type": "PDFTextField"
+    },
+    "czar 16": {
+        "Type": "PDFTextField"
+    },
+    "czar 29": {
+        "Type": "PDFTextField"
+    },
+    "czar 42": {
+        "Type": "PDFTextField"
+    },
+    "czar 55": {
+        "Type": "PDFTextField"
+    },
+    "czar 68": {
+        "Type": "PDFTextField"
+    },
+    "czar 77": {
+        "Type": "PDFTextField"
+    },
+    "czar 86": {
+        "Type": "PDFTextField"
+    },
+    "czar 17": {
+        "Type": "PDFTextField"
+    },
+    "czar 30": {
+        "Type": "PDFTextField"
+    },
+    "czar 43": {
+        "Type": "PDFTextField"
+    },
+    "czar 56": {
+        "Type": "PDFTextField"
+    },
+    "czar 18": {
+        "Type": "PDFTextField"
+    },
+    "czar 31": {
+        "Type": "PDFTextField"
+    },
+    "czar 44": {
+        "Type": "PDFTextField"
+    },
+    "czar 57": {
+        "Type": "PDFTextField"
+    },
+    "czar 19": {
+        "Type": "PDFTextField"
+    },
+    "czar 32": {
+        "Type": "PDFTextField"
+    },
+    "czar 45": {
+        "Type": "PDFTextField"
+    },
+    "czar 58": {
+        "Type": "PDFTextField"
+    },
+    "czar 20": {
+        "Type": "PDFTextField"
+    },
+    "czar 33": {
+        "Type": "PDFTextField"
+    },
+    "czar 46": {
+        "Type": "PDFTextField"
+    },
+    "czar 59": {
+        "Type": "PDFTextField"
+    },
+    "wyczysc": {
+        "Type": "PDFButton",
+        "Value": "N/A"
+    },
+    "K 6": {
+        "Type": "PDFTextField"
+    },
+    "K 3": {
+        "Type": "PDFTextField"
+    }
+}
