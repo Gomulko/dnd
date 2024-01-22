@@ -1,5 +1,5 @@
 <template>
-  <button type="button" class="btn btn-primary mt-3" @click="createPdf">
+  <button type="button" class="btn btn-primary" @click="createPdf">
     Generuj postać
   </button>
 </template>
