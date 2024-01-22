@@ -5,7 +5,10 @@
         <div class="col">
           <div class="row mt-5">
             <div class="col">
-              <form-input-simple label="Imię postaci:" dataText="Imię postaci" />
+              <form-input-simple
+                label="Imię postaci:"
+                dataText="Imię postaci"
+              />
             </div>
           </div>
           <div class="row mt-5">
@@ -15,17 +18,45 @@
           </div>
           <div class="row mt-5">
             <div class="col">
-              <form-input-simple label="Inspiracja" dataText="ins" inputType="number" />
+              <form-input-simple
+                label="Inspiracja"
+                dataText="ins"
+                inputType="number"
+              />
             </div>
           </div>
           <div class="row mt-5">
             <div class="col">
-              <form-input-simple label="Punkty doświadczenia" dataText="pd" inputType="number" />
+              <form-input-simple
+                label="Punkty doświadczenia"
+                dataText="pd"
+                inputType="number"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <form-input-simple
+                label="Poziom"
+                dataText="poziom"
+                inputType="number"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <!-- <FormInputSelect
+                id="klasa"
+                :values="
+                  Object.values(dndConfig.classes).map((klasa) => klasa.name)
+                "
+              ></FormInputSelect> -->
             </div>
           </div>
           <div class="row mt-5">
             <div class="col">
-              <FormInputSelect id="race" :values="dndConfig.race"> </FormInputSelect>
+              <FormInputSelect id="rasa" :values="dndConfig.rasa">
+              </FormInputSelect>
             </div>
           </div>
           <div class="div">
@@ -48,10 +79,10 @@
 </template>
 
 <script setup lang="ts">
-  import PdfGenerator from "@/components/PdfGenerator.vue";
-  import DynamicDescriptionDisplay from "@/components/DynamicDescriptionDisplay.vue";
-  import FormInputSimple from "@/components/inputs/FormInputSimple.vue";
-  import FormInputSelect from "@/components/inputs/FormInputSelect.vue";
-  import CharacterStatsRandomizer from "@/components/CharacterStatsRandomizer.vue";
-  import dndConfig from "@/assets/dnd.json";
+import PdfGenerator from '@/components/PdfGenerator.vue'
+import DynamicDescriptionDisplay from '@/components/DynamicDescriptionDisplay.vue'
+import FormInputSimple from '@/components/inputs/FormInputSimple.vue'
+import FormInputSelect from '@/components/inputs/FormInputSelect.vue'
+import CharacterStatsRandomizer from '@/components/CharacterStatsRandomizer.vue'
+import dndConfig from '@/assets/dnd.json'
 </script>
