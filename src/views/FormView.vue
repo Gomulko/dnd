@@ -111,26 +111,26 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-import PdfGenerator from '@/components/PdfGenerator.vue'
-import FormInputSimple from '@/components/inputs/FormInputSimple.vue'
-import FormInputSelect from '@/components/inputs/FormInputSelect.vue'
-import CharacterStatsRandomizer from '@/components/CharacterStatsRandomizer.vue'
-import dndConfig from '@/assets/dnd.json'
+import { ref } from "vue";
+import PdfGenerator from "@/components/PdfGenerator.vue";
+import FormInputSimple from "@/components/inputs/FormInputSimple.vue";
+import FormInputSelect from "@/components/inputs/FormInputSelect.vue";
+import CharacterStatsRandomizer from "@/components/CharacterStatsRandomizer.vue";
+import dndConfig from "@/assets/dnd.json";
 
-const step = ref(1)
+const step = ref(1);
 
 const nextStep = () => {
   if (step.value < 3) {
-    step.value++
+    step.value++;
   }
-}
+};
 
 const previousStep = () => {
   if (step.value > 1) {
-    step.value--
+    step.value--;
   }
-}
+};
 </script>
 
 <style>
