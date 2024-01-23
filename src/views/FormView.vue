@@ -52,6 +52,14 @@
             ></FormInputSelect>
           </div>
           <div class="col">
+            <FormInputSelect
+              id="klasa"
+              :values="
+                Object.values(dndConfig.classes).map((klasa) => klasa.name)
+              "
+            ></FormInputSelect>
+          </div>
+          <div class="col">
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
               vero corporis similique eos tempora, ipsa debitis. Sequi ipsum ut

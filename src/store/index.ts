@@ -1,5 +1,9 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
+export interface Mutates {
+  klasa: string
+  poziom: number
+}
 export interface FormData {
   'Imię postaci': string
   pd: number
@@ -16,6 +20,11 @@ export interface FormData {
 }
 
 export const useMainStore = defineStore('main', () => {
+  const mutates = ref<Mutates>({
+    klasa: 'Barbarzyńca',
+    poziom: 1,
+  })
+
   const formData = ref<FormData>({
     'Imię postaci': 'Goratrex',
     pd: 0,
@@ -28,7 +37,7 @@ export const useMainStore = defineStore('main', () => {
     'Pole tekstowe 35': 0,
     'Pole tekstowe 37': 0,
     'Pole tekstowe 39': 0,
-    kip: 'Barbarzyńca',
+    kip: '',
   })
 
   function updateFormData<K extends keyof FormData>(
@@ -37,6 +46,13 @@ export const useMainStore = defineStore('main', () => {
   ) {
     formData.value[key] = value
   }
+  function updateClassAndLevel<K extends keyof Mutates>(
+    key: K,
+    value: Mutates[K]
+  ) {
+    mutates.value[key] = value
+    formData.value.kip = mutates.value.klasa + ' ' + mutates.value.poziom
+  }
 
-  return { formData, updateFormData }
+  return { formData, mutates, updateFormData, updateClassAndLevel }
 })

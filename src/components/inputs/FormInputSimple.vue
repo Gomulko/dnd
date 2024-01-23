@@ -30,12 +30,25 @@ const props = defineProps({
 const store = useMainStore()
 const inputId = ref(`input-${Math.random().toString(36).substring(2)}`)
 const value = computed({
-  get: () => store.formData[props.dataText as keyof typeof store.formData],
+  get: () => {
+    if (props.dataText === 'poziom') {
+      return store.mutates.poziom
+    } else {
+      return store.formData[props.dataText as keyof typeof store.formData]
+    }
+  },
   set: (newValue) => {
-    store.updateFormData(
-      props.dataText as keyof typeof store.formData,
-      newValue
-    )
+    if (props.dataText === 'poziom') {
+      return store.updateClassAndLevel(
+        props.dataText as keyof typeof store.mutates,
+        newValue
+      )
+    } else {
+      store.updateFormData(
+        props.dataText as keyof typeof store.formData,
+        newValue
+      )
+    }
   },
 })
 </script>
