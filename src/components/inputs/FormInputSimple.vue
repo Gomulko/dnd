@@ -12,8 +12,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, defineProps } from 'vue'
-import { useMainStore } from '@/store'
+import { computed, ref, defineProps } from "vue";
+import { useMainStore } from "@/store";
 
 const props = defineProps({
   label: String,
@@ -23,19 +23,32 @@ const props = defineProps({
   },
   inputType: {
     type: String,
-    default: 'text',
-    validator: (value: string) => ['text', 'number'].includes(value),
+    default: "text",
+    validator: (value: string) => ["text", "number"].includes(value),
   },
-})
-const store = useMainStore()
-const inputId = ref(`input-${Math.random().toString(36).substring(2)}`)
+});
+const store = useMainStore();
+const inputId = ref(`input-${Math.random().toString(36).substring(2)}`);
 const value = computed({
-  get: () => store.formData[props.dataText as keyof typeof store.formData],
-  set: (newValue) => {
-    store.updateFormData(
-      props.dataText as keyof typeof store.formData,
-      newValue
-    )
+  get: () => {
+    if (props.dataText === "poziom") {
+      return store.mutates.poziom;
+    } else {
+      return store.formData[props.dataText as keyof typeof store.formData];
+    }
   },
-})
+  set: (newValue) => {
+    if (props.dataText === "poziom") {
+      return store.updateClassAndLevel(
+        props.dataText as keyof typeof store.mutates,
+        newValue
+      );
+    } else {
+      store.updateFormData(
+        props.dataText as keyof typeof store.formData,
+        newValue
+      );
+    }
+  },
+});
 </script>
